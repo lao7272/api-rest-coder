@@ -1,0 +1,569 @@
+[2023-04-04T08:25:26.400] [ERROR] default - Bcrypt error: Error: data and salt arguments required
+[2023-04-04T08:26:31.242] [ERROR] default - Bcrypt error: Error: data and salt arguments required
+[2023-04-04T08:27:35.741] [ERROR] default - Bcrypt error: Error: data and salt arguments required
+[2023-04-04T08:29:46.480] [ERROR] default - Bcrypt error: Error: data and salt arguments required
+[2023-04-04T08:33:06.213] [ERROR] default - Bcrypt error: Error: data and salt arguments required
+[2023-04-04T09:47:37.093] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'find')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:10:37)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T09:48:04.641] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:10:37)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T09:49:02.605] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:11:37)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T09:50:18.885] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:11:37)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T09:52:35.429] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:11:37)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T09:53:18.245] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:10:37)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T09:54:50.692] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:10:43)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T09:56:38.626] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:10:43)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:41:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T09:57:30.916] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:10:43)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:41:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T10:00:00.999] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:11:43)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:41:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T10:00:36.931] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:12:43)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T10:03:25.617] [ERROR] default - TypeError: (intermediate value).findOne is not a function
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:12:32)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T10:05:46.761] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:12:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:16)
+    at async logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:22)
+[2023-04-04T10:11:08.174] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:19:43)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T10:13:55.308] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:19:43)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T10:15:51.871] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:19:43)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T10:16:18.745] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:19:43)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T10:18:33.351] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:18:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:16)
+    at async logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:22)
+[2023-04-04T10:20:09.124] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'find')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:16:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:16)
+    at async logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:22)
+[2023-04-04T10:21:48.624] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:16:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:16)
+    at async logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:22)
+[2023-04-04T10:23:37.689] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:16:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:16)
+    at async logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:22)
+[2023-04-04T10:25:30.935] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:16:46)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:16)
+    at async logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:22)
+[2023-04-04T10:30:24.572] [ERROR] default - Service error: TypeError: this.connect is not a function
+[2023-04-04T10:30:43.734] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:15:46)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T10:33:40.991] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:23:46)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T10:34:15.691] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:13:46)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T10:36:21.433] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:13:46)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T10:37:35.374] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:14:38)
+    at Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:30)
+    at logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:40)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-04T10:38:01.041] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:14:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:16)
+    at async logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:22)
+[2023-04-04T10:38:47.812] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:14:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:16)
+    at async logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:22)
+[2023-04-04T10:49:34.191] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:23:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:16)
+    at async logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:22)
+[2023-04-04T10:50:02.878] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'find')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:23:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:16)
+    at async logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:22)
+[2023-04-04T10:50:44.042] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'find')
+    at User.getUserByEmail (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dao/User.dao.js:17:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Module.getUserByEmailDB (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/services/user.service.js:22:16)
+    at async logoutUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:40:22)
+[2023-04-05T09:56:31.362] [ERROR] default - MongoDB error: CastError: Cast to ObjectId failed for value "laptop" (type string) at path "_id" for model "products"
+[2023-04-05T14:31:36.355] [ERROR] default - JsonWebTokenError: invalid token
+    at module.exports [as verify] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:82:17)
+    at validateToken (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/modules/JWT.js:9:17)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:13:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-05T14:32:24.199] [ERROR] default - JsonWebTokenError: invalid token
+    at module.exports [as verify] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:82:17)
+    at validateToken (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/modules/JWT.js:9:17)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:13:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+[2023-04-05T15:29:06.367] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.carts index: idUser_1 dup key: { idUser: "pedro@gmail.com" }
+[2023-04-05T15:29:25.937] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.carts index: idUser_1 dup key: { idUser: "pedro@gmail.com" }
+[2023-04-05T15:29:25.941] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:31:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-05T15:30:22.027] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.carts index: idUser_1 dup key: { idUser: "pedro@gmail.com" }
+[2023-04-05T15:30:52.094] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.carts index: idUser_1 dup key: { idUser: "pedro@gmail.com" }
+[2023-04-05T15:32:02.121] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.carts index: idUser_1 dup key: { idUser: "pedro@gmail.com" }
+[2023-04-05T15:32:57.095] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.carts index: idUser_1 dup key: { idUser: "pedro@gmail.com" }
+[2023-04-05T15:34:02.329] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.carts index: idUser_1 dup key: { idUser: "pedro@gmail.com" }
+[2023-04-05T15:34:21.840] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.carts index: idUser_1 dup key: { idUser: "pedro@gmail.com" }
+[2023-04-05T15:34:41.151] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.carts index: idUser_1 dup key: { idUser: "pedro@gmail.com" }
+[2023-04-05T15:41:10.934] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.carts index: idUser_1 dup key: { idUser: "pedro@gmail.com" }
+[2023-04-05T15:51:36.703] [ERROR] default - MongoDB error: ValidationError: lastname: Path `lastname` is required.
+[2023-04-05T15:54:55.104] [ERROR] default - MongoDB error: ValidationError: address: Path `address` is required.
+[2023-04-05T15:57:51.613] [ERROR] default - MongoDB error: ValidationError: address: Path `address` is required.
+[2023-04-05T16:02:35.073] [ERROR] default - MongoDB error: ValidationError: address: Path `address` is required.
+[2023-04-05T16:04:33.780] [ERROR] default - MongoDB error: ValidationError: address: Path `address` is required.
+[2023-04-05T21:02:39.943] [ERROR] default - TypeError: Cannot set properties of undefined (setting 'quant')
+    at addProductToCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:54:50)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-05T21:03:47.332] [ERROR] default - TypeError: Cannot set properties of undefined (setting 'quant')
+    at addProductToCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:55:50)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-05T21:17:20.770] [ERROR] default - TypeError: Cannot set properties of undefined (setting 'quant')
+    at addProductToCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:55:50)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-05T21:23:53.582] [ERROR] default - TypeError: Cannot read properties of undefined (reading '_id')
+    at addProductToCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:53:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-05T21:24:46.431] [ERROR] default - TypeError: Cannot read properties of undefined (reading '_id')
+    at addProductToCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:53:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-05T21:27:45.272] [ERROR] default - TypeError: getCart.products.findindex is not a function
+    at addProductToCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:52:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-05T21:27:46.976] [ERROR] default - TypeError: getCart.products.findindex is not a function
+    at addProductToCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:52:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-05T21:48:00.468] [ERROR] default - TypeError: getCart.products.foreach is not a function
+    at addProductToCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:52:53)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-05T21:48:01.935] [ERROR] default - TypeError: getCart.products.foreach is not a function
+    at addProductToCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:52:53)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-05T21:48:41.645] [ERROR] default - TypeError: getCart.products.foreach is not a function
+    at addProductToCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:52:53)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-06T08:46:05.398] [ERROR] default - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 0
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:994:5)
+    at ServerResponse.send (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\response.js:278:15)
+    at addProductToCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:56:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_INVALID_STATUS_CODE'
+}
+[2023-04-06T08:46:45.559] [ERROR] default - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 0
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:994:5)
+    at ServerResponse.send (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\response.js:278:15)
+    at addProductToCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:56:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_INVALID_STATUS_CODE'
+}
+[2023-04-06T09:27:02.129] [ERROR] default - TokenExpiredError: jwt expired
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:101:10)
+    at validateToken (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/modules/JWT.js:9:17)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15 {
+  expiredAt: 2023-04-06T12:17:32.000Z
+}
+[2023-04-06T09:56:22.092] [ERROR] default - MongoDB error: CastError: Cast to ObjectId failed for value "2" (type string) at path "_id" for model "products"
+[2023-04-06T09:58:04.260] [ERROR] default - TokenExpiredError: jwt expired
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:101:10)
+    at validateToken (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/modules/JWT.js:9:17)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15 {
+  expiredAt: 2023-04-05T20:07:04.000Z
+}
+[2023-04-07T12:52:54.851] [ERROR] default - MongoDB error: ValidationError: timestamp: Cast to Number failed for value "4/7/2023, 12:52:54 PM" (type string) at path "timestamp"
+[2023-04-07T12:52:54.860] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:30:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-07T12:54:04.390] [ERROR] default - MongoDB error: ValidationError: timestamp: Cast to Number failed for value "4/7/2023, 12:54:04 PM" (type string) at path "timestamp"
+[2023-04-07T12:54:04.395] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:30:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-07T16:18:43.739] [ERROR] default - MongoDB error: ValidationError: timestamp: Cast to Number failed for value "4/7/2023, 4:18:43 PM" (type string) at path "timestamp"
+[2023-04-07T16:18:43.744] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:30:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-07T16:20:41.981] [ERROR] default - MongoDB error: ValidationError: timestamp: Cast to Number failed for value "4/7/2023, 4:20:41 PM" (type string) at path "timestamp"
+[2023-04-07T16:20:41.986] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:30:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-07T16:21:05.698] [ERROR] default - MongoDB error: ValidationError: timestamp: Cast to Number failed for value "4/7/2023, 4:21:05 PM" (type string) at path "timestamp"
+[2023-04-07T16:21:05.702] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:30:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-07T16:23:52.268] [ERROR] default - MongoDB error: ValidationError: timestamp: Cast to Number failed for value "4/7/2023, 4:23:52 PM" (type string) at path "timestamp"
+[2023-04-07T16:23:52.272] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:30:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-07T16:31:17.565] [ERROR] default - MongoDB error: ValidationError: timestamp: Cast to Number failed for value "4/7/2023, 4:31:17 PM" (type string) at path "timestamp"
+[2023-04-07T16:31:17.569] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:30:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-07T16:41:24.712] [ERROR] default - MongoDB error: ValidationError: timestamp: Cast to Number failed for value "4/7/2023, 4:41:24 PM" (type string) at path "timestamp"
+[2023-04-07T16:41:24.716] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:30:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-07T16:44:10.963] [ERROR] default - MongoDB error: ValidationError: timestamp: Cast to Number failed for value "4/7/2023, 4:44:10 PM" (type string) at path "timestamp"
+[2023-04-07T16:44:10.970] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:30:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-07T16:45:40.984] [ERROR] default - MongoDB error: ValidationError: timestamp: Cast to Number failed for value "4/7/2023, 4:45:40 PM" (type string) at path "timestamp"
+[2023-04-07T16:45:40.986] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:30:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-07T16:49:36.203] [ERROR] default - TokenExpiredError: jwt expired
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:101:10)
+    at validateToken (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/modules/JWT.js:9:17)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15 {
+  expiredAt: 2023-04-06T13:27:08.000Z
+}
+[2023-04-07T17:07:26.404] [ERROR] default - MongoDB error: ValidationError: idUser: Path `idUser` is required.
+[2023-04-07T17:07:26.416] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:30:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-07T17:19:05.309] [ERROR] default - JsonWebTokenError: invalid token
+    at module.exports [as verify] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:82:17)
+    at validateToken (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/modules/JWT.js:9:17)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:376:14)
+[2023-04-07T18:07:07.645] [ERROR] default - TokenExpiredError: jwt expired
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:101:10)
+    at validateToken (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/modules/JWT.js:9:17)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15 {
+  expiredAt: 2023-04-07T21:06:54.000Z
+}
+[2023-04-08T07:42:21.160] [ERROR] default - TokenExpiredError: jwt expired
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:101:10)
+    at validateToken (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/modules/JWT.js:9:17)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15 {
+  expiredAt: 2023-04-07T22:07:13.000Z
+}
+[2023-04-08T07:43:09.533] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.carts index: idUser_1 dup key: { idUser: null }
+[2023-04-08T07:43:09.536] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:30:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-08T08:02:22.904] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.carts index: idUser_1 dup key: { idUser: null }
+[2023-04-08T08:02:22.908] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:30:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-08T08:09:35.736] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.carts index: idUser_1 dup key: { idUser: null }
+[2023-04-08T08:09:35.739] [ERROR] default - TypeError: Cannot destructure property '_id' of 'undefined' as it is undefined.
+    at new CartDTO (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/dto/cart.dto.js:2:18)
+    at createCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:30:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-08T08:11:15.969] [ERROR] default - ReferenceError: carts is not defined
+    at deleteCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:72:26)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:12:9)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:365:14)
+[2023-04-08T08:14:17.020] [ERROR] default - ReferenceError: carts is not defined
+    at deleteCart (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/cart.controller.js:72:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:12:9)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:365:14)
+[2023-04-08T08:16:05.823] [ERROR] default - Controller error: TypeError: CartService.getById is not a function
+[2023-04-08T10:14:13.517] [ERROR] default - TypeError: UserService.getUserByEmailDB is not a function
+    at loginUser (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/user.controller.js:27:43)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:47:12)
