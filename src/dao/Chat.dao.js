@@ -4,5 +4,12 @@ class Chat extends MongoDBContainer {
     constructor(){
         super('chats', ChatSchema);
     }
+    async getMessagesByEmail(email) {
+        try {
+            return await this.collection.find({email: email})
+        } catch (err) {
+            logger.error(`Dao error: ${err}`);
+        }
+    }
 }
 export default Chat;

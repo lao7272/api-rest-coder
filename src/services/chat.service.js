@@ -12,9 +12,9 @@ class CartService {
     }
     
 
-    async getMessagesByEmailDB(id) {
+    async getMessagesByEmailDB(email) {
         try {
-            return await ChatDAO.getById(id);
+            return await ChatDAO.getMessagesByEmail(email);
         } catch (err) {
             logger.error(`Service error: ${err}`);
         }

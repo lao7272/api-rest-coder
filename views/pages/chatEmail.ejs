@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <%- include('../partials/head'); %>
@@ -9,27 +9,36 @@
     <header>
         <%- include('../partials/header'); %>
     </header>
-    <main class="jumbotron">
-        <h3>Chat</h3>
-        <div class="jumbotron" id="messages"></div>
-        <form id="chatForm">
-            <div class="mb-3">
-                <input type="text" class="form-control" name="email" placeholder="Enter your email ">
-            </div>
-            <div class="mb-3">                
-                <input type="text" class="form-control" name="body" placeholder="Enter a message ">
-            </div>
+    <main>
+        <div class="jumbotron">
             
+            <h2>Productos</h2>
+            <% if(chats.length > 0) { %>
 
-            <button type="submit" class="btn btn-primary">Send Message</button>
-        <form>
-
-            
+                    <% chats.forEach((message)=> { %>
+                        <div class="m-1" style="background: #ccc; padding: 10px; display: flex; align-content: center;">   
+                            <p ><strong style="color: blue"><%= message.email %></strong> <em style="color: red"><%= message.timestamp.toLocaleString('en-US', { year: 'numeric',
+                                month: '2-digit',
+                                day: '2-digit',
+                                hour: '2-digit',
+                                minute: '2-digit',
+                                second: '2-digit',
+                                timeZone: 'UTC' }) %>: </em><i style="color: green">"<%= message.body %>"</i></p>
+                        </div>
+                    <% }); %>
+                
+            <div>
+                <button class="btn btn-primary"><a href="/chat" style="color: black; text-decoration: none;">Return to chat</a></button>
+            </div>
+            <% } else { %>
+                <h3></h3>
+                <button class="btn btn-primary"><a href="/chat" style="color: black; text-decoration: none;">Return to chat</a></button>
+            <% } %>
+        </div>
     </main>
     <footer>
         <%- include('../partials/footer'); %>
     </footer>
-
 </body>
 
 </html>
