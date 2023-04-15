@@ -833,3 +833,30 @@
 [2023-04-15T18:28:01.984] [ERROR] default - MongoDB error: CastError: Cast to ObjectId failed for value "salvalanus27@gmail.com" (type string) at path "_id" for model "chats"
 [2023-04-15T18:28:02.974] [ERROR] default - MongoDB error: CastError: Cast to ObjectId failed for value "salvalanus27@gmail.com" (type string) at path "_id" for model "chats"
 [2023-04-15T18:28:42.435] [ERROR] default - MongoDB error: CastError: Cast to ObjectId failed for value "salvalanus27@gmail.com" (type string) at path "_id" for model "chats"
+[2023-04-15T18:36:55.575] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:40:58.800] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:41:00.667] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:41:23.425] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:41:25.176] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:43:24.368] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:48:18.677] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:49:21.040] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:49:45.283] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:50:01.426] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:50:14.856] [WARN] default - Page not found:  URL: http://localhost:8080/chats, METHOD: GET
+[2023-04-15T18:50:14.910] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:50:38.187] [WARN] default - Page not found:  URL: http://localhost:8080/chats, METHOD: GET
+[2023-04-15T18:50:38.225] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:50:39.182] [WARN] default - Page not found:  URL: http://localhost:8080/chats, METHOD: GET
+[2023-04-15T18:50:39.224] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:50:40.588] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:50:41.648] [WARN] default - Page not found:  URL: http://localhost:8080/chats, METHOD: GET
+[2023-04-15T18:50:41.690] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:50:43.503] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:50:44.724] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:50:46.457] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:50:47.963] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:50:53.172] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:52:39.037] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:52:40.344] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-15T18:52:43.116] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
