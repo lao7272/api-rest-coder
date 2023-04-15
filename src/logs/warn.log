@@ -823,3 +823,4 @@
 [2023-04-14T17:52:35.310] [WARN] default - Page not found:  URL: http://localhost:8080/chat/la, METHOD: GET
 [2023-04-15T09:43:11.245] [WARN] default - Page not found:  URL: http://localhost:8080/node_modules/socket.io-client/dist/socket.io.js, METHOD: GET
 [2023-04-15T09:43:20.392] [WARN] default - Page not found:  URL: http://localhost:8080/node_modules/socket.io-client/dist/socket.io.js, METHOD: GET
+[2023-04-15T10:44:51.489] [ERROR] default - MongoDB error: CastError: Cast to ObjectId failed for value "laptop" (type string) at path "_id" for model "products"

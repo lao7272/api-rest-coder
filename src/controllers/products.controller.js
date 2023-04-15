@@ -29,9 +29,9 @@ const getProductById = async (req, res) => {
 
 const getProductsByCategory = async (req, res) => {
     try {
-        const dbProducts = await ProductService.getProductsByCategoryDB(req.params.category);
-        if (dbProducts.length === 0) return res.json({message: 'Category not found'}); 
-        const productsDTO = dbProducts.map(prod => new ProductsDTO(prod));
+        const products = await ProductService.getProductsByCategoryDB(req.params.category);
+        if (products.length === 0 || !products) return res.json({message: 'Category not found'}); 
+        const productsDTO = products.map(prod => new ProductsDTO(prod));
         res.json({products: productsDTO});
     } catch (err) {
         logger.error(err);
