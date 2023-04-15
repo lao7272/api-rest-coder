@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body style="margin: 0px; padding: 0px;">
+    <header>
+        <%- include('../partials/header'); %>
+    </header>
+    <main style="display: flex; align-items: center; justify-content: center; flex-direction: column; margin: 10px;">
+        <h3>Chat</h3>
+        <div class="jumbotron" style="height: 70vh; overflow: scroll; border: 1.4px solid black; width: 500px;" id="messages"></div>
+        <form id="chatForm">
+            <div class="mb-3">
+                <input type="text" class="form-control" name="email" placeholder="Enter your email ">
+            </div>
+            <div class="mb-3">                
+                <input type="text" class="form-control" name="body" placeholder="Enter a message ">
+            </div>
+            
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        <form>
+
+            
+    </main>
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+
+    <%- include('../partials/scriptChat'); %>
+</body>
+
+</html>

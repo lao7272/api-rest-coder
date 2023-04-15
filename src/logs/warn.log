@@ -581,3 +581,245 @@
     at Function.handle (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:175:3)
     at router (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:47:12)
 [2023-04-08T10:19:30.121] [WARN] default - Page not found:  URL: http://localhost:8080/api/product/, METHOD: GET
+[2023-04-09T12:34:19.535] [WARN] default - Page not found:  URL: http://localhost:8080/chat, METHOD: GET
+[2023-04-09T12:39:31.491] [WARN] default - Page not found:  URL: http://localhost:8080/chat, METHOD: GET
+[2023-04-09T12:43:42.442] [WARN] default - Page not found:  URL: http://localhost:8080/chat, METHOD: GET
+[2023-04-09T12:43:43.815] [WARN] default - Page not found:  URL: http://localhost:8080/chat, METHOD: GET
+[2023-04-09T12:45:15.590] [WARN] default - Page not found:  URL: http://localhost:8080/chat, METHOD: GET
+[2023-04-09T12:45:58.240] [WARN] default - Page not found:  URL: http://localhost:8080/chat, METHOD: GET
+[2023-04-09T13:00:28.364] [ERROR] default - MongoDB error: ValidationError: type: Path `type` is required.
+[2023-04-11T11:07:45.740] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-11T11:55:42.965] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-11T12:58:20.797] [ERROR] default - MongoDB error: ValidationError: email: Path `email` is required., body: Path `body` is required.
+[2023-04-11T16:46:11.988] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-11T16:49:26.491] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-11T17:02:08.748] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-11T17:56:18.338] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-11T19:16:01.082] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-11T19:16:06.288] [WARN] default - Page not found:  URL: http://localhost:8080/favicon.ico, METHOD: GET
+[2023-04-12T12:53:29.674] [WARN] default - Page not found:  URL: http://localhost:8080/api/carts/, METHOD: GET
+[2023-04-12T12:55:02.420] [ERROR] default - MongoDB error: ValidationError: orderNumber: Cast to Number failed for value "42ba60f4-4cd5-427c-8faf-e1c653b496dc" (type string) at path "orderNumber"
+[2023-04-12T12:55:05.010] [ERROR] default - Error: Invalid login: 535 Authentication failed
+    at SMTPConnection._formatError (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:1548:34)
+    at SMTPConnection.<anonymous> (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at SMTPConnection._onSocketData (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '535 Authentication failed',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-04-12T13:31:58.991] [ERROR] default - Error: Invalid login: 535 Authentication failed
+    at SMTPConnection._formatError (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:1548:34)
+    at SMTPConnection.<anonymous> (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at SMTPConnection._onSocketData (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '535 Authentication failed',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-04-12T13:45:07.367] [WARN] default - Page not found:  URL: http://localhost:8080/api/order, METHOD: POST
+[2023-04-12T13:45:12.449] [ERROR] default - Error: Invalid login: 535 Authentication failed
+    at SMTPConnection._formatError (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:1548:34)
+    at SMTPConnection.<anonymous> (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at SMTPConnection._onSocketData (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '535 Authentication failed',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-04-12T13:50:05.575] [WARN] default - Page not found:  URL: http://localhost:8080/api/car, METHOD: POST
+[2023-04-12T13:50:08.626] [WARN] default - Page not found:  URL: http://localhost:8080/api/carts, METHOD: POST
+[2023-04-12T13:50:59.484] [ERROR] default - Error: No recipients defined
+    at SMTPConnection._formatError (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._setEnvelope (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:1007:34)
+    at SMTPConnection.send (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:621:14)
+    at sendMessage (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-transport\index.js:228:28)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-transport\index.js:286:25
+    at SMTPConnection._actionAUTHComplete (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:1562:9)
+    at SMTPConnection.<anonymous> (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at SMTPConnection._onSocketData (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:193:44) {
+  code: 'EENVELOPE',
+  command: 'API'
+}
+[2023-04-12T15:55:31.150] [ERROR] default - TypeError: Cannot read properties of null (reading 'active')
+    at createOrder (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/order.controller.js:23:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-04-12T15:56:53.758] [ERROR] default - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 40
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:994:5)
+    at ServerResponse.send (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\response.js:278:15)
+    at createOrder (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/controllers/order.controller.js:23:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  code: 'ERR_HTTP_INVALID_STATUS_CODE'
+}
+[2023-04-12T16:01:39.584] [WARN] default - Page not found:  URL: http://localhost:8080/api/carts/, METHOD: POST
+[2023-04-12T16:01:55.080] [ERROR] default - Error: Invalid login: 535 Authentication failed
+    at SMTPConnection._formatError (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:1548:34)
+    at SMTPConnection.<anonymous> (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at SMTPConnection._onSocketData (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '535 Authentication failed',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-04-12T16:13:55.736] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.orders index: orderId_1 dup key: { orderId: null }
+[2023-04-12T16:13:59.958] [ERROR] default - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection.login (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:444:38)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:213:17)
+    at Object.onceWrapper (node:events:627:28)
+    at SMTPConnection.emit (node:events:513:28)
+    at SMTPConnection._actionEHLO (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:1331:14)
+    at SMTPConnection._processResponse (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at SMTPConnection._onSocketData (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\nodemailer\lib\smtp-connection\index.js:193:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2023-04-12T16:29:15.339] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.orders index: orderId_1 dup key: { orderId: null }
+[2023-04-12T16:29:18.220] [ERROR] default - NodeMailer: Error: Missing credentials for "PLAIN"
+[2023-04-12T16:35:56.773] [ERROR] default - MongoDB error: CastError: Cast to ObjectId failed for value "6437066e9fbf400b6a578dce\n" (type string) at path "_id" for model "carts"
+[2023-04-12T16:36:21.452] [WARN] default - Page not found:  URL: http://localhost:8080/api/cart/6437066e9fbf400b6a578dce, METHOD: POST
+[2023-04-12T16:37:18.826] [ERROR] default - MongoDB error: ValidationError: orderNumber: Cast to string failed for value "v4 {}" (type v4) at path "orderNumber"
+[2023-04-12T16:37:21.619] [ERROR] default - NodeMailer: Error: Missing credentials for "PLAIN"
+[2023-04-12T16:40:12.500] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.orders index: orderId_1 dup key: { orderId: null }
+[2023-04-12T16:40:15.109] [ERROR] default - NodeMailer: Error: Missing credentials for "PLAIN"
+[2023-04-12T16:44:55.537] [WARN] default - Page not found:  URL: http://localhost:8080/api/order, METHOD: POST
+[2023-04-12T16:44:57.121] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.orders index: orderId_1 dup key: { orderId: null }
+[2023-04-12T16:44:59.503] [ERROR] default - NodeMailer: Error: Missing credentials for "PLAIN"
+[2023-04-12T16:46:54.975] [ERROR] default - NodeMailer: Error: Missing credentials for "PLAIN"
+[2023-04-12T17:12:25.858] [ERROR] default - TokenExpiredError: jwt expired
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:101:10)
+    at validateToken (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/modules/JWT.js:9:17)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15 {
+  expiredAt: 2023-04-12T20:10:15.000Z
+}
+[2023-04-12T17:13:53.557] [ERROR] default - NodeMailer: Error: connect ECONNREFUSED 127.0.0.1:587
+[2023-04-12T17:18:52.313] [WARN] default - Page not found:  URL: http://localhost:8080/api/cart/643710f1991995b95c10e4f0, METHOD: PATCH
+[2023-04-12T17:19:22.048] [ERROR] default - NodeMailer: Error: Missing credentials for "PLAIN"
+[2023-04-12T17:23:42.916] [ERROR] default - NodeMailer: Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor z10-20020a9d7a4a000000b006a4244d2a7asm27893otm.9 - gsmtp
+[2023-04-12T17:28:07.957] [WARN] default - Page not found:  URL: http://localhost:8080/api/oders/, METHOD: POST
+[2023-04-12T17:28:17.930] [ERROR] default - NodeMailer: Error: Invalid login: 535 Authentication failed
+[2023-04-12T17:47:43.340] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.orders index: orderId_1 dup key: { orderId: null }
+[2023-04-12T20:32:37.413] [ERROR] default - TokenExpiredError: jwt expired
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:101:10)
+    at validateToken (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/modules/JWT.js:9:17)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15 {
+  expiredAt: 2023-04-12T21:44:52.000Z
+}
+[2023-04-12T20:34:24.271] [ERROR] default - TokenExpiredError: jwt expired
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:101:10)
+    at validateToken (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/modules/JWT.js:9:17)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15 {
+  expiredAt: 2023-04-12T21:44:52.000Z
+}
+[2023-04-12T20:35:00.159] [ERROR] default - MongoDB error: MongoServerError: E11000 duplicate key error collection: ecommerce.orders index: orderId_1 dup key: { orderId: null }
+[2023-04-13T11:27:03.157] [WARN] default - Page not found:  URL: http://localhost:8080/api/order/, METHOD: POST
+[2023-04-13T11:53:01.872] [ERROR] default - TokenExpiredError: jwt expired
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:101:10)
+    at validateToken (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/modules/JWT.js:9:17)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15 {
+  expiredAt: 2023-04-13T00:32:41.000Z
+}
+[2023-04-13T12:55:05.085] [WARN] default - Page not found:  URL: http://localhost:8080/dist/index.js, METHOD: GET
+[2023-04-13T12:55:05.094] [WARN] default - Page not found:  URL: http://localhost:8080/_snowpack/hmr-client.js, METHOD: GET
+[2023-04-13T12:55:05.101] [WARN] default - Page not found:  URL: http://localhost:8080/_snowpack/hmr-error-overlay.js, METHOD: GET
+[2023-04-13T12:55:05.107] [WARN] default - Page not found:  URL: http://localhost:8080/_snowpack/pkg/uuid.v9.0.0.js, METHOD: GET
+[2023-04-13T13:14:28.701] [ERROR] default - MongoDB error: ValidationError: body: Path `body` is required.
+[2023-04-13T13:14:29.920] [ERROR] default - MongoDB error: ValidationError: body: Path `body` is required.
+[2023-04-14T11:45:43.859] [ERROR] default - MongoDB error: CastError: Cast to ObjectId failed for value "phone" (type string) at path "_id" for model "products"
+[2023-04-14T11:47:39.157] [ERROR] default - TokenExpiredError: jwt expired
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:101:10)
+    at validateToken (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/modules/JWT.js:9:17)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15 {
+  expiredAt: 2023-04-13T15:27:49.000Z
+}
+[2023-04-14T15:37:08.107] [ERROR] default - TokenExpiredError: jwt expired
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\jsonwebtoken\verify.js:101:10)
+    at validateToken (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/modules/JWT.js:9:17)
+    at isAuth (file:///C:/Users/laslo/OneDrive/Escritorio/programacion/coderhouse/backend/api-rest-coder/src/middleware/isAuth.js:10:25)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\laslo\OneDrive\Escritorio\programacion\coderhouse\backend\api-rest-coder\node_modules\express\lib\router\index.js:284:15 {
+  expiredAt: 2023-04-13T15:27:49.000Z
+}
+[2023-04-14T16:21:02.912] [ERROR] default - Controller error: TypeError: OrderService.getOrgerByEmailDB is not a function
+[2023-04-14T17:02:47.668] [WARN] default - Page not found:  URL: http://localhost:8080/chat/a, METHOD: GET
+[2023-04-14T17:52:35.310] [WARN] default - Page not found:  URL: http://localhost:8080/chat/la, METHOD: GET
+[2023-04-15T09:43:11.245] [WARN] default - Page not found:  URL: http://localhost:8080/node_modules/socket.io-client/dist/socket.io.js, METHOD: GET
+[2023-04-15T09:43:20.392] [WARN] default - Page not found:  URL: http://localhost:8080/node_modules/socket.io-client/dist/socket.io.js, METHOD: GET

@@ -2,28 +2,28 @@ import { logger } from "../modules/logger.js";
 import DAOFactory from "../dao/index.dao.js";
 const { UserDAO } = await new DAOFactory().getDAOs();
 class UserService {
-    getUsersDB = async () => {
+    async getUsersDB() {
         try {
             return await UserDAO.getAll();
         } catch (err) {
             logger.error(`Service error: ${err}`);
         }
     }
-    getUserByIdDB = async (id) => {
+    async getUserByIdDB(id) {
         try {
             return await UserDAO.getById(id);
         } catch (err) {
             logger.error(`Service error: ${err}`);
         }
     }
-    getUserByEmailDB = async (email) => {
+    async getUserByEmailDB(email) {
         try {
             return await UserDAO.getUserByEmail(email);
         } catch (err) {
             logger.error(`Service error: ${err}`);
         }
     }
-    createUserDB = async (object) => {
+    async createUserDB(object) {
         try {
             return await UserDAO.save(object);
         } catch (err) {
@@ -31,7 +31,7 @@ class UserService {
         }
     }
     
-    deleteUser = async (id) => {
+    async deleteUser(id) {
         try {
             return await UserDAO.deleteById(id);
         } catch (err) {

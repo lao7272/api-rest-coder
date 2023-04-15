@@ -1,0 +1,48 @@
+<script src="https://cdn.socket.io/4.5.3/socket.io.min.js" integrity="sha384-WPFUvHkB1aHA5TDSZi6xtDgkF0wXJcIIxXhC6h8OT8EH3fC5PWro5pWJ1THjcfEi" crossorigin="anonymous"></script>
+<!-- <script src="/node_modules/socket.io-client/dist/socket.io.js"></script> -->
+
+<script>
+
+    const socket = io();
+    const chatForm = document.getElementById('chatForm');
+    const divMessages = document.getElementById('messages');
+
+    socket.on('conversation', (messages) => {
+
+        divMessages.innerHTML = '';
+        messages.map((message) => {
+            const formattedDate = new Date(message.timestamp).toLocaleString('en-US', {
+                    year: 'numeric',
+                    month: '2-digit',
+                    day: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit',
+                    timeZone: 'UTC'
+            });
+            divMessages.innerHTML += `
+            <div class="m-1" style="background: #ccc; padding: 10px; display: flex; align-content: center;">   
+                <p ><strong style="color: blue">${message.email}</strong> <em style="color: red"> ${formattedDate}: </em><i style="color: green"> "${message.body}"</i></p>
+            </div>
+            `
+        });
+
+    });
+    
+    
+    chatForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const date = new Date();
+        const dataForm = new FormData(e.target);
+        if (dataForm.get("email") === "" || dataForm.get("body") === "") return;
+
+        const message = { 
+            email: dataForm.get("email"),
+            timestamp: date,
+            body: dataForm.get("body"),
+            type: 'user'
+        };
+
+        socket.emit('new-message', message);
+    });
+</script>

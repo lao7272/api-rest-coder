@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import vars from "../config/config.js";
 import { logger } from "../modules/logger.js";
 
-const { URI } = vars;
+const { URI, MONGO_ATLAS_URI } = vars;
 
 class MongoDBContainer {
     constructor(collectionName, schema){
@@ -12,7 +12,7 @@ class MongoDBContainer {
 
     async connect () {
         try {
-            mongoose.connect(URI, {
+            mongoose.connect(MONGO_ATLAS_URI, {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
                 serverSelectionTimeoutMS: 5000

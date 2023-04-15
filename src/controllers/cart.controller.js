@@ -7,18 +7,23 @@ import { logger } from "../modules/logger.js";
 const { CartService, ProductService } = await new ServiceFactory().getServices();
 
 const getCarts = async (req, res) => {
-    const dbCarts = await CartService.getCartsDB();
-    const carts = dbCarts.map(cart => new CartDTO(cart));
-    res.json(carts);
+    try {
+        const dbCarts = await CartService.getCartsDB();
+        const carts = dbCarts.map(cart => new CartDTO(cart));
+        res.json(carts);
+    } catch (err) {
+        logger.error(err);
+        res.status(400).json({error: err});
+    }
 }
 const getCartById =  async (req, res) => {
-    const idCart = req.params.idCart;
+    const cartId = req.params.id;
+    const cart = await CartService.getCartByIdDB(cartId);
+    const { email } = req.user;
 
-    const cart = await CartService.getCartByIdDB(idCart);
-    if(!cart) return res.json({message: `El carrito con id: ${idCart} no existe`});
+    if(!cart || cart.userId !== email) return res.json({message: `Cart not found`});
 
     const cartDTO = new CartDTO(cart);
-
     res.json({cart: cartDTO});
 }
 
@@ -26,6 +31,15 @@ const createCart = async (req, res) => {
     try {
         const date = getDate();
         const { email, address } = req.user;
+        const getCartByEmail = await CartService.getCartByEmailDB(email);
+        // Checks if the user has already created a cart
+        if (getCartByEmail) {
+            if (!getCartByEmail.active) {
+                await CartService.deleteCartDB(getCartByEmail._id)
+            } else {
+                return res.status(400).json({error: "You have already created a cart"})
+            }
+        }
         const dataCart = {userId: email, address, active: true, timestamp: date, products:[]};
         const newCart = await CartService.createCartDB(dataCart);
         const cartDTO = new CartDTO(newCart);
@@ -43,10 +57,14 @@ const addProductToCart = async (req, res) => {
     
         const getProduct = await ProductService.getProductByIdDB(productId);
         const getCart = await CartService.getCartByIdDB(cartId);
-        if (!getCart || !getProduct) return res.json({message: `El producto o el carrito cargados no exite`});
+        const { email } = req.user;
+
+        if (!getCart || !getProduct) return res.status(400).json({error: `Invalid ID format`});
+        if (getCart.userId !== email) return res.status(400).json({error: `Cart not found`});
 
         let productCartArray = getCart.products;
         const getProductIndex = productCartArray.findIndex(prod => prod._id == productId);
+
         if(getProductIndex !== -1) {
             productCartArray[getProductIndex].quant = productCartArray[getProductIndex].quant + 1;
             await CartService.updateCartDB(cartId, {products: productCartArray});
@@ -69,10 +87,10 @@ const addProductToCart = async (req, res) => {
 
 const deleteCart = async (req, res) => {
     try {
-        const cartId = req.params.cartId;
+        const cartId = req.params.id;
         const getCart = await CartService.getCartByIdDB(cartId);
-        if (!getCart) return res.json({message: `Cart not found`}); 
-
+        const { email } = req.user;
+        if (!getCart || getCart.userId !== email) return res.json({message: `Cart not found`}); 
         await CartService.deleteCartDB(cartId);
         res.json({message: `Cart ${cartId} deleted`});
     } catch (err) {
@@ -87,8 +105,10 @@ const removeProduct = async (req, res) => {
         const cartId  = req.params.cartId;
         const getCart = await CartService.getCartByIdDB(cartId);
         const getProduct = await getCart.products.find(product => product._id == productId)
+        const { email } = req.user;
 
-        if (!getCart || !getProduct) return res.json({message: `El producto o carrito cargado no exite`}); 
+        if (!getCart || !getProduct) return res.status(400).json({error: `Invalid ID format`});
+        if (getCart.userId !== email) return res.status(400).json({error: `Cart not found`});
 
         let productCartArray = getCart.products;
         const getProductIndex = productCartArray.findIndex(prod => prod._id == productId);
@@ -98,13 +118,13 @@ const removeProduct = async (req, res) => {
                 productCartArray[getProductIndex].quant = productQuant - 1;
                 await CartService.updateCartDB(cartId, {products: productCartArray});
                 const productDTO = new ProductsDTO(productCartArray[getProductIndex])
-                return res.json({message: `Producto con id:${productId} eliminado`, product: productDTO});  
+                return res.json({message: `Product deleted`, product: productDTO});  
             }
         }
 
         const newProductArr = getCart.products.filter(product => product._id != productId);
         await CartService.updateCartDB(cartId, {products: newProductArr});
-        res.json({message: `Producto con id:${productId} eliminado`});
+        res.json({message: `Product deleted`});
 
     } catch (err) {
         logger.error(err);

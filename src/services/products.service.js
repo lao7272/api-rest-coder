@@ -3,7 +3,7 @@ import DAOFactory from "../dao/index.dao.js";
 const { ProductDAO } = await new DAOFactory().getDAOs();
 
 class ProductService {
-    getProductsDB = async () => {
+    async getProductsDB() {
         try {
             return await ProductDAO.getAll();
         } catch (err) {
@@ -11,14 +11,14 @@ class ProductService {
         }
     }
     
-    getProductByIdDB = async (id) => {
+    async getProductByIdDB(id) {
         try {
             return await ProductDAO.getById(id);
         } catch (err) {
             logger.error(`Service error: ${err}`);
         }
     }
-    getProductsByCategoryDB = async (category) => {
+    async getProductsByCategoryDB(category) {
         try {
             return await ProductDAO.getByCategory(category);
         } catch (err) {
@@ -27,7 +27,7 @@ class ProductService {
     }
     
     
-    createProductDB = async (object) => {
+    async createProductDB(object) {
         try {
             return await ProductDAO.save(object);
         } catch (err) {
@@ -35,14 +35,14 @@ class ProductService {
         }
     }
     
-    updateProductDB = async (id, object) => {
+    async updateProductDB(id, object) {
         try {
             return await ProductDAO.update(id, object);
         } catch (err) {
             logger.error(`Service error: ${err}`);
         }
     }
-    deleteProductDB = async (id) => {
+    async deleteProductDB(id) {
         try {
             return await ProductDAO.deleteById(id);
         } catch (err) {

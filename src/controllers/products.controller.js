@@ -12,30 +12,30 @@ const getProducts = async (req, res) => {
         res.json({products: productsDTO});
     } catch (err) {
         logger.error(err);
-        res.status(500).json({error: "Ocurrio un en error en el servidor"})
+        res.status(400).json({error: "Server error"});
     }
 }
 const getProductById = async (req, res) => {
     try {
         const product = await ProductService.getProductByIdDB(req.params.id);
-        if (!product) return res.json({message: 'Producto no encontrado'}); 
+        if (!product) return res.json({message: 'Product not found'}); 
         const productDTO = new ProductsDTO(product);
         res.json({...productDTO});
     } catch (err) {
         logger.error(err);
-        res.status(500).json({error: "Ocurrio un en error en el servidor"})
+        res.status(400).json({error: "Server error"});
     }
 }
 
 const getProductsByCategory = async (req, res) => {
     try {
         const dbProducts = await ProductService.getProductsByCategoryDB(req.params.category);
-        if (dbProducts.length === 0) return res.json({message: 'Categoria no encontrada'}); 
+        if (dbProducts.length === 0) return res.json({message: 'Category not found'}); 
         const productsDTO = dbProducts.map(prod => new ProductsDTO(prod));
         res.json({products: productsDTO});
     } catch (err) {
         logger.error(err);
-        res.status(500).json({error: "Ocurrio un en error en el servidor"})
+        res.status(400).json({error: "Server error"});
     }
 }
 const createProduct = async (req, res) => {
@@ -46,13 +46,13 @@ const createProduct = async (req, res) => {
         res.status(201).json({...productDTO});
     } catch (err) {
         logger.error(err);
-        res.status(500).json({error: "Ocurrio un en error en el servidor"})
+        res.status(400).json({error: "Server error"});
     }
 }
 const updateProduct = async (req, res) => {
     try {
         const findProduct = await ProductService.getProductByIdDB(req.params.id);
-        if (!findProduct) return res.json({message: 'El producto no se encontro'});
+        if (!findProduct) return res.json({message: 'Product not found'});
     
         const dataProduct = {...req.body}
         await ProductService.updateProductDB(req.params.id, dataProduct);
@@ -60,19 +60,19 @@ const updateProduct = async (req, res) => {
         res.json(productDTO);
     } catch (err) {
         logger.error(err);
-        res.status(500).json({error: "Ocurrio un en error en el servidor"})
+        res.status(400).json({error: "Server error"});
     }
 }
 const deleteProduct = async (req, res) => {
     try {
         const findProduct = await ProductService.getProductByIdDB(req.params.id);
-        if (!findProduct) return res.json({message: "El producto ya ha sido eliminado"});        
-    
+        if (!findProduct) return res.json({message: "Product not found"});        
+
         ProductService.deleteProductDB(req.params.id);
         res.json(findProduct);
     } catch (err) {
         logger.error(err);
-        res.status(500).json({error: "Ocurrio un en error en el servidor"})
+        res.status(400).json({error: "Server error"});
     }
 }
 

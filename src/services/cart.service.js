@@ -3,7 +3,7 @@ import DAOFactory from "../dao/index.dao.js";
 const { CartDAO } = await new DAOFactory().getDAOs();
 
 class CartService {
-    getCartsDB = async () => {
+    async getCartsDB() {
         try {
             return await CartDAO.getAll();
         } catch (err) {
@@ -13,7 +13,7 @@ class CartService {
     
     
     
-    getCartByIdDB = async (id) => {
+    async getCartByIdDB(id) {
         try {
             return await CartDAO.getById(id);
         } catch (err) {
@@ -21,7 +21,7 @@ class CartService {
         }
     }
     
-    getCartByEmailDB = async (email) => {
+    async getCartByEmailDB(email) {
         try {
             return await CartDAO.getCartByEmail(email);
         } catch (err) {
@@ -29,7 +29,7 @@ class CartService {
         }
     } 
     
-    createCartDB = async (object) => {
+    async createCartDB(object) {
         try {
             return await CartDAO.save(object);
         } catch (err) {
@@ -37,14 +37,14 @@ class CartService {
         }
     }
     
-    updateCartDB = async (id, object) => {
+    async updateCartDB(id, object) {
         try {
             return await CartDAO.update(id, object);
         } catch (err) {
             logger.error(`Service error: ${err}`);
         }
     }
-    deleteCartDB = async (id) => {
+    async deleteCartDB(id) {
         try {
             return await CartDAO.deleteById(id);
         } catch (err) {

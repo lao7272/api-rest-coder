@@ -3,7 +3,7 @@ import DAOFactory from "../dao/index.dao.js";
 const { OrderDAO } = await new DAOFactory().getDAOs();
 
 class OrderService {
-    getOrdersDB = async () => {
+    async getOrdersDB() {
         try {
             return await OrderDAO.getAll();
         } catch (err) {
@@ -11,8 +11,15 @@ class OrderService {
         }
     }
     
+    async getOrgerByEmailDB(email) {
+        try {
+            return await OrderDAO.getOrdersByEmail(email);
+        } catch (err) {
+            logger.error(`Service error: ${err}`);
+        }
+    }
     
-    createOrderDB = async (object) => {
+    async createOrderDB(object) {
         try {
             return await OrderDAO.save(object);
         } catch (err) {

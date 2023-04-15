@@ -6,10 +6,10 @@ const cartRouter = Router();
 
 cartRouter
 .get("/", isAuth, CartController.getCarts)
-.get('/:cartId', isAuth, CartController.getCartById)
+.get('/:id', isAuth, CartController.getCartById)
 .post('/', isAuth, CartController.createCart)
 .post('/:cartId/product/:productId', isAuth, CartController.addProductToCart)
-.delete('/:cartId', isAuth, CartController.deleteCart)
+.delete('/:id', isAuth, CartController.deleteCart)
 .delete('/:cartId/product/:productId', isAuth, CartController.removeProduct);
 
 export default cartRouter;

@@ -3,7 +3,7 @@ import DAOFactory from "../dao/index.dao.js";
 const { ChatDAO } = await new DAOFactory().getDAOs();
 
 class CartService {
-    getMessagesDB = async () => {
+    async getMessagesDB() {
         try {
             return await ChatDAO.getAll();
         } catch (err) {
@@ -12,7 +12,7 @@ class CartService {
     }
     
 
-    getMessagesByEmailDB = async (id) => {
+    async getMessagesByEmailDB(id) {
         try {
             return await ChatDAO.getById(id);
         } catch (err) {
@@ -20,9 +20,9 @@ class CartService {
         }
     }
     
-    creareMessageDB = async (email) => {
+    async createMessageDB(message) {
         try {
-            return await ChatDAO.getCartByEmail(email);
+            return await ChatDAO.save(message);
         } catch (err) {
             logger.error(`Service error: ${err}`);
         }

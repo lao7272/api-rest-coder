@@ -53,7 +53,7 @@ export default class ServiceFactory {
             CartService: await this.getCartService(),
             UserService: await this.getUserService(),
             OrderService: await this.getOrderService(),
-            ChatService: await this.getCartService()
+            ChatService: await this.getChatService()
         }
     }
 }
